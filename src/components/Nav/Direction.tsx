@@ -27,6 +27,6 @@ export const Direction = styled.div<{ $active: boolean }>`
 
   ${(props) =>
     props.$active &&
-    `background-color: ${props.theme.directions.activeBacground}; 
+    `background-color: ${props.theme.nav.activeBacground}; 
      border-radius: 50%;`}
 `;
